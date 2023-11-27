@@ -12,6 +12,9 @@ echo "<br>hello {$name} and you're {$name1} is it correct.<br>"; //brackets are 
 //note:-String literal can be used only by double quotes.
 //Single quotes are used for string interpolation.   
 
+//String concatinamtion
+echo $name . "<br>" . $name1; //Using '.' we can break the string's and variable.
+
 //2.Integer:
 $number = 21;
 echo $number;
