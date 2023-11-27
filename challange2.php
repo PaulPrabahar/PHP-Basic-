@@ -28,8 +28,8 @@ volume = 4/3 pi r cube.
 
 $radius = $_GET['radius'];
 $circumfrence =  2 * pi() * $radius;
-$area = pi() * $radius * $radius;
-$volume = 4 / 3 * pi() * $radius * $radius * $radius;
+$area = pi() * pow($radius, 2);
+$volume = 4 / 3 * pi() * pow($radius, 3);
 
 $circumfrence = round($circumfrence, 2);
 $area = round($area, 2);
