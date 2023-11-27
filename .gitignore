@@ -1,1 +1,11 @@
+# Ignore generated files
+*.log
+*.pot
+*.mo
+*.bak
 
+# Ignore vendor directory
+/vendor/
+
+# Ignore configuration files
+/config.php
