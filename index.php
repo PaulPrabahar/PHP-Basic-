@@ -1,2 +1,2 @@
 <?php
-include 'for_loops.php';
+include 'while_loop.php';
