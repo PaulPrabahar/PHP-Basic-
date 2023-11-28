@@ -1,2 +1,2 @@
 <?php
-include 'challange3.php';
+include 'switch.php';
