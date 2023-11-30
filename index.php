@@ -1,6 +1,26 @@
 <?php
+session_start();
+?>
+<!DOCTYPE html>
+<html lang="en">
 
-/*include() is used to copy the content of one file (php/html/text)
-and includes it in the php file which make are code reusable and easy to maintain.*/
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Session</title>
+</head>
 
-include 'sanitize_validate.php';//After include just mention the name of the file.
+<body>
+    <label>Log info</label><br>
+    <a href="session.php">This goes to the session page.</a><br>
+</body>
+
+</html>
+
+<?php
+$_SESSION['username'] = 'paul';
+$_SESSION['password'] = 'luap';
+
+echo "username {$_SESSION['username']}<br>";
+echo "password {$_SESSION['password']}<br>";
+?>
